@@ -24,7 +24,7 @@ export const typeDefs = gql`
     "The track's complete description, can be in Markdown format"
     description: String
     "The number of times a track has been viewed"
-    numberOfView: Int
+    numberOfViews: Int
     "The track's complete array of Modules"
     modules: [Module!]!
   }
